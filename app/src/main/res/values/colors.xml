@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="flat_green" type="color">#2ecc71</item>
+  <item name="flat_red" type="color">#e74c3c</item>
+</resources>

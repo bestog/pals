@@ -1,0 +1,32 @@
+<resources>
+
+  <string name="app_name">PALS</string>
+  <string name="action_info">Info</string>
+  <string name="info_description">Ist eine Softwarelösung aus der Bachelorarbeit:\nFaralot - Android Framework für\nGeolocation Plattformen\n\n von Sebastian Gottschlich</string>
+  <string name="info_developer_url">Code auf GitHub\nhttps://github.com/bestog/pals</string>
+  <string name="info_icon_license">Icons\nwww.iconfinder.com\nLicense: Free for commercial use</string>
+  <string name="info_version">Version: %s</string>
+  <string name="location_provider">Privacy Aware Location Service</string>
+  <string name="min_provider">Es muss mind. 1 Provider ausgewählt werden</string>
+  <string name="notification_id">20491</string>
+  <string name="notification_text">Läuft im Hintergrund</string>
+  <string name="notification_title">PALS - Location Service</string>
+  <string name="recommend">Empfohlen</string>
+  <string name="service_run">Service läuft derzeit</string>
+  <string name="slow">Langsam</string>
+  <string name="service_name">LocationService</string>
+  <string name="service_start">Speichern</string>
+  <string name="service_stop">Ändern</string>
+
+  <string name="mozilla_name">Mozilla Stumbler</string>
+  <string name="mozilla_api">https://location.services.mozilla.com/v1/geolocate?key=</string>
+  <string name="mozilla_key">8a677f74-e6e6-43ed-b0db-9926efd0bbe4</string>
+  <string name="opencell_name">OpenCellID</string>
+  <string name="opencell_api">http://www.opencellid.org/cell/get?key=</string>
+  <string name="opencell_key">a5fceaa4-afc5-4647-896f-c0794c8b3122</string>
+  <string name="openbmap_name">OpenBMap</string>
+  <string name="openbmap_api">http://www.radiocells.org/geolocation/geolocate</string>
+  <string name="openmap_name">OpenWLANMap</string>
+  <string name="openmap_api">http://openwlanmap.org/getpos.php</string>
+
+</resources>

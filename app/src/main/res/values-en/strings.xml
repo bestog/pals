@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">PALS</string>
+  <string name="action_info">Info</string>
+  <string name="info_icon_license">Icons\nwww.iconfinder.com\nLicense: Free for commercial use</string>
+  <string name="info_description">Is a software solution from the bachelor thesis:\nFaralot - Android Framework für\nGeolocation Plattformen\n\nby Sebastian Gottschlich</string>
+  <string name="info_developer_url">Code on GitHub\nhttps://github.com/bestog/pals</string>
+  <string name="info_version">Version: %s</string>
+  <string name="location_provider">Privacy Aware Location Service</string>
+  <string name="min_provider">There must be at least 1 provider selected</string>
+  <string name="mozilla_api">https://location.services.mozilla.com/v1/geolocate?key=</string>
+  <string name="mozilla_key">8a677f74-e6e6-43ed-b0db-9926efd0bbe4</string>
+  <string name="mozilla_name">Mozilla Stumbler</string>
+  <string name="notification_id">20491</string>
+  <string name="notification_text">Runs in the background</string>
+  <string name="notification_title">PALS - Location Service</string>
+  <string name="openbmap_api">http://www.radiocells.org/geolocation/geolocate</string>
+  <string name="openbmap_name">OpenBMap</string>
+  <string name="opencell_api">http://www.opencellid.org/cell/get?key=</string>
+  <string name="opencell_key">a5fceaa4-afc5-4647-896f-c0794c8b3122</string>
+  <string name="opencell_name">OpenCellID</string>
+  <string name="openmap_api">http://openwlanmap.org/getpos.php</string>
+  <string name="openmap_name">OpenWLANMap</string>
+  <string name="recommend">Recommended</string>
+  <string name="service_name">LocationService</string>
+  <string name="service_run">Service is currently running</string>
+  <string name="service_start">Save</string>
+  <string name="service_stop">Edit</string>
+  <string name="slow">Slowly</string>
+</resources>

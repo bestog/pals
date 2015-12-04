@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#161616"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity"
+  >
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="10dp"
+      android:text="@string/recommend"
+      android:textColor="#90c0df"
+      android:textSize="17sp"
+      android:textStyle="bold"
+      />
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+      <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:contentDescription="@string/mozilla_name"
+        android:src="@drawable/app_icon"
+        />
+
+      <TextView
+        android:id="@+id/textMozilla"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/mozilla_name"
+        android:textColor="#ccc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+      <Switch
+        android:id="@+id/switchMozilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+      >
+
+      <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:contentDescription="@string/openmap_name"
+        android:src="@drawable/app_icon"
+        />
+
+      <TextView
+        android:id="@+id/textOpenMap"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/openmap_name"
+        android:textColor="#ccc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+      <Switch
+        android:id="@+id/switchOpenMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="10dp"
+      android:paddingTop="30dp"
+      android:text="@string/slow"
+      android:textColor="#90c0df"
+      android:textSize="17sp"
+      android:textStyle="bold"
+      />
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+      <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:contentDescription="@string/opencell_name"
+        android:src="@drawable/app_icon"
+        />
+
+      <TextView
+        android:id="@+id/textOpenCell"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/opencell_name"
+        android:textColor="#ccc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+      <Switch
+        android:id="@+id/switchOpenCell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+      >
+
+      <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:alpha="0.8"
+        android:contentDescription="@string/openbmap_name"
+        android:src="@drawable/app_icon"
+        />
+
+      <TextView
+        android:id="@+id/textOpenBMap"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/openbmap_name"
+        android:textColor="#ccc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+      <Switch
+        android:id="@+id/switchOpenBMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    >
+
+    <TextView
+      android:id="@+id/result"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#34495e"
+      android:gravity="center"
+      android:padding="5dp"
+      android:textColor="#ccc"
+      android:textSize="15sp"
+      android:visibility="gone"
+      />
+
+    <Button
+      android:id="@+id/toggleButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/flat_green"
+      android:text="@string/service_start"
+      android:textColor="#fff"
+      android:textSize="12pt"
+      android:textStyle="bold"
+      />
+  </LinearLayout>
+</RelativeLayout>
