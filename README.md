@@ -2,6 +2,8 @@ Privacy Aware Location Service
 ===============
 For more information: [http://bestog.github.io/pals](http://bestog.github.io/pals)
 
+*Tested with Android Version 4.4.2 (KitKat) / Motorola Razr i - XT890*
+
 ## Get the application
 * Download the latest release: [**pals_v1.0.apk**](https://github.com/bestog/pals/releases)
 
