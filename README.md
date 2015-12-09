@@ -4,6 +4,8 @@ For more information: [http://bestog.github.io/pals](http://bestog.github.io/pal
 
 *Tested with Android Version 4.4.2 (KitKat) / Motorola Razr i - XT890*
 
+*Supported on API Level 17 and above.*
+
 ## Get the application
 * Download the latest release: [**pals_v1.0.apk**](https://github.com/bestog/pals/releases)
 
